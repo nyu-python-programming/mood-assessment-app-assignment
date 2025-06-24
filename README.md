@@ -17,7 +17,7 @@ Every day the program is run, it should do the following once:
 1. ask the user to input their current mood
 1. validate the user's response (the code must accept the following moods: `happy`, `relaxed`, `apathetic`, `sad`, and `angry`)
 1. if the response was invalid, repeat starting from step 1 until valid response is gathered
-1. translate the user's response to an integer (`happy` -> 2, `relaxed` -> 1, `apathetic` -> 0, `sad` -> -1, `angry` -> -2)
+1. translate the user's response to an integer (`happy` -> `2`, `relaxed` -> `1`, `apathetic` -> `0`, `sad` -> `-1`, `angry` -> `-2`)
 1. store the integer as a new line in a text file named `mood_diary.txt` within a subdirectory named `data`.
 
 ### Limit input to once-per-day
